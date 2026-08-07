@@ -6,11 +6,15 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@remotion/captions": "^4.0.506",
     "@remotion/cli": "4.0.506",
+    "@remotion/install-whisper-cpp": "^4.0.506",
+    "@remotion/media-utils": "^4.0.506",
+    "@remotion/tailwind-v4": "4.0.506",
+    "@remotion/transitions": "^4.0.506",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.506",
-    "@remotion/tailwind-v4": "4.0.506",
     "tailwindcss": "4.0.0"
   },
   "devDependencies": {
@@ -25,7 +29,8 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "transcribe": "node scripts/transcribe.mjs"
   },
   "sideEffects": [
     "*.css"
