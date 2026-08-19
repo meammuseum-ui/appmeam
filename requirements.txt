@@ -1,0 +1,7 @@
+# Python dependencies for appmeam
+#
+# graphifyy: turns a folder of code, docs, and other project files into a
+# queryable knowledge graph. Used here to generate a knowledge graph of this
+# repository's codebase for exploration and documentation purposes.
+# https://github.com/Graphify-Labs/graphify
+graphifyy
