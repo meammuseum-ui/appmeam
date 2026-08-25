@@ -1,0 +1,5 @@
+# Credenciales y estado local de la automatización de Instagram — nunca commitear
+.env
+.env.*
+scripts/.meam-instagram-state.json
+*.log
